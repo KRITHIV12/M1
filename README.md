@@ -20,8 +20,8 @@ return 0;
 }
 
 ## OUTPUT:
-input: a b c
-output: c b a
+![Screenshot 2025-05-06 152506](https://github.com/user-attachments/assets/c0753b4c-4ac2-40e8-a6d0-7dc496d42abd)
+
 
 ## RESULT:
 Thus the program to read 3 characters one by one and print the characters in a reverse order has been executed successfully.
@@ -56,10 +56,8 @@ return 0;
 }
 
 # OUTPUT:
-A= 12
-output: Its a positive number
-A= -10
-output: Its a negative number
+![Screenshot 2025-05-06 153000](https://github.com/user-attachments/assets/3320cf5d-1303-4250-b02e-5bd5cfabc32d)
+
 
 # RESULT:
 Thus the program to read A values and check whether A is positive number or not has been executed successfully.
@@ -82,26 +80,18 @@ Write a program to find minimum between two fraction numbers using conditional o
 7.	Print the minimum value.
 
 ## PROGRAM:
-#include<stdio.h>
-int main()
-{
-int n1,n2,d1,d2;
-float frac1,frac2,result;
-printf("Enter numerator and denominator of first fraction: ");
-scanf("%d%d",&n1,&d1);
-printf("Enter numerator and denominator of second fraction: ");
-scanf("%d%d"&n2,&d2);
-frac1 = (float)num1 / den1;
-frac2 = (float)num2 / den2;
-result = (frac1 < frac2) ? frac1 : frac2;
-printf("The minimum of the two fractions is: %.2f\n", result);
+#include<stdio.h> 
+int main() 
+{  
+float a,b,min; 
+scanf("%f %f",&a,&b); 
+min = (a < b) ? a : b; 
+printf("Minimum between %.3f and %.3f is %.3f",a,b,min);
 return 0;
-}
-
+} 
 ## OUTPUT:
-n1=4 , n2=7 , d1=6 , d2=8
-frac1=0.66 , frac2=0.87 
-output = The minimum of the two fractions is: 0.87
+![Screenshot 2025-05-06 153407](https://github.com/user-attachments/assets/dce5751f-5175-43ad-86b6-42b47972dcea)
+
 
 ## RESULT:
 Thus the program to find minimum between two fraction numbers using conditional operator or ternary operator has been executed successfully.
@@ -138,11 +128,7 @@ return 0;
 }
 
 ## OUTPUT:
-n=1;
-output = input value is equal to 1
-n=5
-output = input value is not equal to 1 
-
+![image](https://github.com/user-attachments/assets/5d9f1a6a-fb8b-4e54-800a-8fd0b5d9df99)
 
 ## RESULT:
 Thus the program to check whether the input value is equal to 1 using simple if statement has been executed successfully
@@ -198,10 +184,8 @@ int main() {
 
 
 ## OUTPUT:
-m1=60, m2=70 , m3=80
-total=210.00
-percentage=70.00%
-Division= First
+![WhatsApp Image 2025-05-06 at 15 38 45_bb6898b7](https://github.com/user-attachments/assets/41d17146-2270-4843-ac7e-8259a6855c82)
+
 
 ## RESULT:
 The program successfully takes three subject marks, calculates the total and percentage, and correctly determines the division based on predefined grading logic.
